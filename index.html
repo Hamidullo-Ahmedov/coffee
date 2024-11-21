@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Cofferoasters</title>
 
   <!-- Normalize CSS -->
-  <link rel="stylesheet" href="./styles/normalize.css">
+  <!-- <link rel="stylesheet" href="./styles/normalize.css"> -->
 
   <!-- Main CSS -->
-  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="./css/main.css">
 
   <!-- <link rel="stylesheet" href="./styles/min.css"> -->
 
@@ -20,35 +20,32 @@
 
   <header class="site-header">
     <div class="container">
-      <div class="header-wrapper">
+      <div class="site-header__wrapper">
         <a class="site-logo" href="./index.html">
           <img class="logo-img"
-          width=""
-          height=""
-          src="" alt="">
+          width="235"
+          height="24"
+          src="./images/logo.svg" alt="site logo">
         </a>
         <nav class="navbar">
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <a href="#">
-
+          <ul class="navbar__list unstyled-list">
+            <li class="navbar__item">
+              <a class="navbar__link" href="#">
+                HOME
               </a>
             </li>
             <li class="navbar-item">
-              <a href="#">
-
+              <a class="navbar__link" href="#">
+                ABOUT US
               </a>
             </li>
             <li class="navbar-item">
-              <a href="#">
-
+              <a class="navbar__link" href="#">
+                CREATE YOUR PLAN
               </a>
             </li>
           </ul>
         </nav>
-        <a class="sign-up" href="#">
-
-        </a>
       </div>
     </div>
   </header>
@@ -63,8 +60,25 @@
 
     <section class="hero">
       <div class="container">
-        <div class="hero-wrapper">
-
+        <div class="hero__wrapper">
+          <div class="hero__inner">
+            <h1 class="hero__title">
+              Good coffee 
+              is made simply.
+            </h1>
+            <p class="hero__desc">
+              Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees 
+              from our best roasters delivered directly to your door, at your schedule.
+            </p>
+            <a class="hero__link" href="#">
+              Create your plan
+            </a>
+          </div>
+          <img class="hero__img" src="./images/hero-img.png"
+          width="710"
+          height="696"
+          srcset="./images/hero-img.png 1x, ./images/hero-img@2x.png"
+          alt="a girl's hand with her coffee">
         </div>
       </div>
     </section>

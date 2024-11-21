@@ -1,0 +1,28 @@
+/* header section starts */
+
+.site-header {
+  padding-block: 40px;
+  background-image: url("../images/hero-bg.png");
+}
+
+.site-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__list {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+}
+
+.navbar__link {
+  text-decoration-line: none;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: $letter-spacing;
+  color: $text-color;
+}
+
+/* header section ends */
