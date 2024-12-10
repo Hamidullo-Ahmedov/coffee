@@ -457,4 +457,183 @@ img {
   border-radius: 100px;
 }
 
-/* hero section ends *//*# sourceMappingURL=main.css.map */
+/* hero section ends */
+/* collection section starts */
+.collection {
+  position: relative;
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+.collection__wrapper {
+  background-image: url("../images/collection-bg.png");
+}
+
+.collection__title {
+  margin-top: 0;
+  margin-bottom: 80px;
+  padding-top: 50px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.collection__item {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 120px;
+       column-gap: 120px;
+  padding-inline: 80px;
+}
+
+.collection__item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.collection__item::before {
+  content: "";
+  width: 402px;
+  height: 400px;
+  background-image: url("../images/dancho.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: calc(50% - 800px);
+  left: calc(50% - 870px);
+}
+
+.collection__item:nth-child(2)::before {
+  content: "";
+  width: 402px;
+  height: 400px;
+  background-image: url("../images/bg-espresso.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: calc(50% + 10px);
+  left: calc(50% + 600px);
+}
+
+.collection__item:nth-child(2)::after {
+  content: "";
+  width: 430px;
+  height: 477px;
+  background-image: url("../images/espresso.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: calc(50% - 100px);
+  left: calc(50% + 550px);
+}
+
+.collection__item:nth-child(3)::before {
+  content: "";
+  background-image: url("../images/planalto.svg");
+  width: 402px;
+  height: 400px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: calc(50% + 400px);
+  left: calc(50% - 950px);
+}
+
+.collection__inner {
+  width: 390px;
+}
+
+.collection__subtitle {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 48px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.collection__desc {
+  margin-block: 0;
+  font-size: 22px;
+  line-height: 34px;
+}
+
+/* collection section ends */
+.whychoose {
+  position: relative;
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+.whychoose__wrapper {
+  background-image: url("../images/why-choose-bg.png");
+}
+
+.whychoose__inner {
+  width: 581px;
+  margin-inline: auto;
+  padding-bottom: 500px;
+}
+
+.whychoose__title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-top: 50px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.whychoose__desc {
+  margin-top: 0;
+  text-align: center;
+  line-height: 28px;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.whychoose__list {
+  position: absolute;
+  top: calc(50% - 80px);
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  padding-bottom: 80px;
+}
+
+.whychoose__list::before {
+  position: absolute;
+  top: calc(50% - 420px);
+  left: calc(50% - 750px);
+  content: "";
+  background-image: url("../images/but-first-coffee.svg");
+  width: 140px;
+  height: 144px;
+  background-repeat: no-repeat;
+}
+
+.whychoose__item {
+  width: 433px;
+}
+
+.whychoose__content-wrapper {
+  width: 377px;
+}
+
+.whychoose__subtitle {
+  margin-top: 28px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.whychoose__description {
+  margin-block: 0;
+  font-size: 18px;
+  line-height: 28px;
+  color: #333;
+}/*# sourceMappingURL=main.css.map */
