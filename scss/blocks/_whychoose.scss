@@ -1,7 +1,7 @@
 .whychoose {
   position: relative;
   padding: 20px;
-  padding-bottom: 0;
+  padding-bottom: 289px;
 }
 
 .whychoose__wrapper {
@@ -35,24 +35,23 @@
 
 .whychoose__list {
   position: absolute;
-  top: calc(50% - 80px);
+  top: calc(50% - 200px);
   left: 0;
   right: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 40px;
-  padding-bottom: 80px;
 }
 
 .whychoose__list::before {
   position: absolute;
-  top: calc(50% - 420px);
+  top: calc(50% - 380px);
   left: calc(50% - 750px);
   content: "";
   background-image: url("../images/but-first-coffee.svg");
-  width: 140px;
-  height: 144px;
+  width: 160px;
+  height: 160px;
   background-repeat: no-repeat;
 }
 
