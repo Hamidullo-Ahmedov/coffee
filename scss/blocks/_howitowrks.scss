@@ -30,20 +30,20 @@
 
 .howitworks__list::before {
   position: absolute;
-  top: calc(50% - 220px);
+  top: calc(50% - 250px);
   left: calc(50% - 640px);
   content: "";
-  background-image: url("../../images/dotted-line.svg");
+  background-image: url("../images/dotted-line.svg");
   width: 900px;
   height: 2px;
 }
 
 .howitworks__list::after {
   position: absolute;
-  top: calc(50% - 380px);
+  top: calc(50% - 400px);
   right: calc(50% - 700px);
   content: "";
-  background-image: url("../../images/but-coffee-first2.svg");
+  background-image: url("../images/but-coffee-first2.svg");
   background-repeat: no-repeat;
   width: 250px;
   height: 170px;
@@ -61,7 +61,7 @@
 
 .howitworks__item::before {
   position: absolute;
-  top: calc(50% - 250px);
+  top: calc(50% - 280px);
   content: "";
   width: 60px;
   height: 60px;
